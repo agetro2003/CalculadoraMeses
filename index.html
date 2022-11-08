@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Calculadora de meses</title>
 </head>
 <body>
-    <div>
-        <div>
-            <p>Introduzca la cantidad de meses y presione el boton</p>
+    <div class="form">
+        <h2> Introduzca los datos y presione el boton </h3> 
+        <div class="input">
+            <p>Introduzca la cantidad de meses</p>
             <input type="number" id="meses"/> 
         </div>
-       <br/>
-       <div>
+       <div class="input">
             <p>Introduzca la cantidad de dolares</p>
             <input type="number" id="dolares"/>  
        </div>
-      <br/>
+       <br/>
        <button onclick="calcular();">Calcular</button>
     
        <br/> 
