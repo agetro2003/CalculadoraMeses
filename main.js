@@ -15,9 +15,9 @@ resta --;
 
 }
 
-let multiplicacion = dolares * total * 1.25
+let multiplicacion = dolares * total * 0.0125
 resultado.innerHTML = `<h1> Los meses totales son ${total} </h1>
-<h1> ${total} x ${dolares} x 1.25 = ${multiplicacion} </h1>`
+<h1> ${total} x ${dolares} x 0.0125 = ${multiplicacion} $ </h1>`
 
 
 }
